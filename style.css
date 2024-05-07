@@ -1,0 +1,162 @@
+/* blurring the image */
+.gfg {
+   
+    width: 100%;
+}
+
+
+
+h1,
+.par {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 10px 50px;
+    position: relative;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:hover {
+    
+    
+    -webkit-text-fill-color:rgb(255, 149, 1);
+    
+}
+
+
+/* 2nd section*/
+.conte {
+  display: flex;
+  padding: 6px 20px;
+  margin-top: 25px;
+  
+  flex-direction:row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  background-color: #ddd;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.ima {
+ 
+  margin-right: 20px; /* Adjust spacing between image and text */
+  border-radius: 10%;
+}
+
+.txt {
+  flex: 1; /* Allow the text to grow to fill remaining space */
+}
+
+.txt h2 {
+  margin-top: 0; /* Remove default margin */
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    background-color: #ddd;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .cont {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cont img {
+    width: 100%;
+    border-radius: 10%;
+  }
+
+
+  /* cultural significance of pozole card */
+  .card2 {
+    /* Add shadows to create the "card" effect */
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 30px;
+   
+    margin-bottom: 1%;
+
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    background-color: #ddd;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .content {
+    padding: 6px 20px;
+    justify-content: space-between;
+    flex-direction:row;
+  }
+  .card2 img{
+    border-radius: 10%;
+  }
+  .card2 {
+    width: 100%;
+  }
+
+  /*button*/
+  .minimalist-button {
+    display: inline-block;
+    background-color: rgb(255, 149, 1);
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 5%;
+    
+}
+.minimalist-button:hover {
+    background-color: #333333;
+    color: #fff;
+    border-color: #333;
+}
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:-webkit-sticky;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (min-width: 360px) {
+  header {
+    text-align: center;
+  }
+}
+
+
